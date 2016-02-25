@@ -18,9 +18,9 @@ After, you just need to use it with the default classes defined:
 
 The already compilated CSS is not really flexible, and you can only have a 12 columns and a grid max-width of 1280px with the following breakpoints:
 - mobile: 0 -> 500px (default change of the size of all the column to 100% of the grid)
--tablet: 501px -> 1024px
--desktop: 1025px -> 1280px
--large-desktop -> 1440px
+- tablet: 501px -> 1024px
+- desktop: 1025px -> 1280px
+- large-desktop -> 1440px
 
 
 ##Instructions SCSS
@@ -41,3 +41,23 @@ grunt
 
 
 ##Settings
+
+number of columns of your grid
+```SCSS
+$nb-grid-column: 12;
+```
+
+global gutter for the grid (if defined to false, will remove the padding of all the columns).
+```SCSS
+$has-gutter: true;
+```
+
+gutter size in pixels
+```SCSS
+$column-gutter: 20;
+```
+
+max-width of your grid in pixels
+```SCSS
+$grid-width: 1280;
+```

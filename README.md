@@ -61,3 +61,17 @@ max-width of your grid in pixels
 ```SCSS
 $grid-width: 1280;
 ```
+
+Variable to define from which breakpoint it will break (change the column size to 100%).
+Four different variable are available: *mobile*, *tablet*, *desktop*, *large-desktop*
+```SCSS
+$global-size-break: "mobile";
+```
+
+Breakpoint size in pixels
+```SCSS
+$mobile-break: 500px;
+$tablet-break: 1024px;
+$desktop-break: 1280px;
+$large-desktop-break: 1440px;
+```

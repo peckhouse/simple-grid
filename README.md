@@ -49,9 +49,9 @@ Examples:
 
 .your-element-grid-column {
 	@include grid-column(
-		$nb-column, // Control the number of columns
-		$gutter, // Specify if there is a gutter or not (default: true)
-		$size-break // Size where it "breaks" ('mobile', 'tablet', 'desktop', 'large-desktop')
+		$nb-column: 1, // Control the number of columns
+		$gutter: true, // Specify if there is a gutter or not (default: true)
+		$size-break: 'mobile' // Size where it "breaks" ('mobile', 'tablet', 'desktop', 'large-desktop')
 	);
 }
 

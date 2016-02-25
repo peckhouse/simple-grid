@@ -39,6 +39,24 @@ Once this is done you can change the variable in the settings.scss (see the sett
 grunt
 ```
 
+You have also the option of customize your grid using the provided mixins ```grid()``` and ```grid-column()``` and their options.
+Examples:
+
+```SCSS
+.your-element-grid {
+		@include grid();
+}
+
+.your-element-grid-column {
+	@include grid-column(
+		$nb-column, // Control the number of columns
+		$gutter, // Specify if there is a gutter or not (default: true)
+		$size-break // Size where it "breaks" ('mobile', 'tablet', 'desktop', 'large-desktop')
+	);
+}
+
+```
+
 
 ##Settings
 

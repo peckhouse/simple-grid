@@ -15,7 +15,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'src/scss/builds/styles.min.css': 'src/scss/styles.scss'
+          'scss/builds/styles.min.css': 'scss/styles.scss'
         }
       },
       expanded: {
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          'src/scss/builds/styles.css': 'src/scss/styles.scss'
+          'scss/builds/styles.css': 'scss/styles.scss'
         }
       }
     },
@@ -38,15 +38,15 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'simple-grid.min.css': 'src/scss/builds/styles.min.css',
-          'simple-grid.css': 'src/scss/builds/styles.css'
+          'simple-grid.min.css': 'scss/builds/styles.min.css',
+          'simple-grid.css': 'scss/builds/styles.css'
         }
       }
     },
 
     watch: {
       css: {
-        files: ['src/scss/styles.scss','src/scss/components/*.{css,scss}'],
+        files: ['scss/styles.scss','scss/components/*.{css,scss}'],
         tasks: ['sass', 'postcss']
       }
     }

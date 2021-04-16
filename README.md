@@ -1,10 +1,10 @@
 # simple-grid
 
-##Intro
+## Intro
 Simple grid is a basic lightweight grid system built in Sass (SCSS). Simple grid does not include any presentational styles but is simply a grid system.
 
 
-##Instruction CSS
+## Instruction CSS
 
 To use Simple grid include `simple-grid.css` or `simple-grid.min.css` in the head of your html.
 
@@ -24,7 +24,7 @@ The compiled CSS provides 12 columns and a grid max-width of 1280px with the fol
 - large-desktop -> 1440px
 
 
-##Instructions SCSS
+## Instructions SCSS
 
 First you need to install [grunt](http://gruntjs.com/getting-started) and the dependencies.
 
@@ -59,7 +59,7 @@ Examples:
 ```
 
 
-##Settings
+## Settings
 
 number of columns of your grid
 ```SCSS
